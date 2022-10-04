@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 import java.util.*;
+=======
+import java.util.ArrayList;
+import java.util.TreeSet;
+>>>>>>> ab7b3725bfe38c56d61de6131d00d20c88d786dd
 
 public class Main {
     public static void main(String[] args) {
         int[] nums = {1,3,5,6};
         int target = 2;
+<<<<<<< HEAD
         System.out.println(twoSum(nums,target) );
         /**
          *Жанар агай жардам чыгарып берди жакшысын
@@ -11,6 +17,11 @@ public class Main {
         System.out.println(twoSum2(nums,target) );
     }
 
+=======
+
+        System.out.println(twoSum(nums,target) );
+    }
+>>>>>>> ab7b3725bfe38c56d61de6131d00d20c88d786dd
     public static int twoSum(int[] nums, int target) {
         TreeSet<Integer> treeSet = new TreeSet<>();
         treeSet.add(target);
@@ -25,6 +36,7 @@ public class Main {
         }
         return 0;
     }
+<<<<<<< HEAD
     public static int twoSum2(int[] nums, int target) {
         int low = 0 ,
                 high = nums.length - 1 ,
@@ -43,4 +55,6 @@ public class Main {
         }
         return ans;
     }
+=======
+>>>>>>> ab7b3725bfe38c56d61de6131d00d20c88d786dd
 }
